@@ -2,7 +2,7 @@ console:
   image: fotexnet/rancheros-console:v1.3.0
   command: ros console-init
   privileged: true
-  labels:
+  labels: 
     io.rancher.os.scope: system
     io.rancher.os.after: network
     io.docker.compose.rebuild: "false"
