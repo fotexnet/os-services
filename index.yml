@@ -21,6 +21,7 @@ consoles:
 - debian
 - fedora
 - ubuntu
+- fotexnet
 engines:
 - docker-1.12.6
 - docker-1.13.1
